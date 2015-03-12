@@ -1,0 +1,5 @@
+Per richiedere il Service Tag a una macchina remota
+wmic /user:administrator /node:remote-host bios get serialnumber
+
+Per ottenere il Service Tag dalla macchina locale
+wmic csproduct get vendor,name,identifyingnumber
